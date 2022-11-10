@@ -16,14 +16,13 @@ export class ConcreteMediator implements IMediator {
 
     public notify(sender: object, event: string): void {
         if (event === 'A') {
-            console.log('El mediador reacciona en A y activa las siguientes operaciones:');
+            console.log('El mediador reacciona a hechar agua en el parabrisas y activa las siguientes operaciones:');
             this.component2.doC();
         }
 
         if (event === 'D') {
-            console.log('El mediador reacciona en D y activa las siguientes operaciones:');
+            console.log('El mediador reacciona a direccionales en el externos y activa las siguientes operaciones:');
             this.component1.doB();
-            this.component2.doC();
         }
     }
 }

@@ -1,0 +1,11 @@
+{
+  "name": "mediator",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
